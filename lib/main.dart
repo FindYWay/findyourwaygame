@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'screens/quiz_start_screen.dart';
 import 'screens/splash_screen.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class FindYourWayApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: const SplashScreen(),
+      home: const QuizStartScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
